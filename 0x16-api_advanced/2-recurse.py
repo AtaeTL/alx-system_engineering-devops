@@ -6,7 +6,7 @@ from requests import get
 def recurse(subreddit, hot_list=[], after=None):
     """ recursive function that queries the Reddit API and returns a list
     containing the titles of all hot articles for a given subreddit. """
-    headers = {"User-Agent": "javierandresgp"}
+    headers = {"User-Agent": "AtaeTL"}
     try:
         source = "https://www.reddit.com/r/{}.json".format(subreddit)
         if after:
