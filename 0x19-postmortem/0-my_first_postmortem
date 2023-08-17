@@ -1,0 +1,46 @@
+Description:
+The company "InnovateCommerce" specializes in product marketing, headquartered in Bogotá, Colombia. It operates a central headquarters where administrative, accounting, and distribution functions are managed. The company's products are retailed in its own outlets and distributed to international partners.
+
+Location:
+The main office is situated in Bogotá, Colombia.
+
+Operating Hours:
+The company operates from Monday to Friday, from 8:00 AM to 5:00 PM.
+
+Summary of Incident:
+On Tuesday, May 19, 2020, InnovateCommerce experienced a system outage that severely impacted its operations. As a result, employees were unable to perform their tasks efficiently, leading to unprocessed requests, disrupted distribution, a significant drop in daily sales, and dissatisfied customers due to delayed product deliveries.
+
+Incident Timeline:
+At 8:00 AM, employees began their daily tasks and noticed that they couldn't access the crucial software used for managing various aspects of the company, such as accounting, billing, distribution, and inventory.
+
+The company's system department was promptly notified.
+
+A technical support specialist investigated the main server cabinet and found the server to be powered off.
+
+The technical support specialist resolved the issue by 5:30 PM, restoring server functionality.
+
+Root Cause:
+The server outage was caused by a failure in the power supply.
+
+Resolution and Recovery:
+Around 8:00 AM, the technical support specialist discovered the server was powered off. They checked the power connections and cables, all of which were in order.
+
+Since the server was a rack-mounted unit, it was removed from the cabinet for inspection. A significant amount of dust was found inside, with the fans exhibiting reduced mobility.
+
+After thorough inspection and cleaning, the technician diagnosed a malfunctioning power supply by around 10:00 AM.
+
+The company sourced replacement power supplies from a wholesale distributor, and two units were purchased to expedite the repair process.
+
+During the wait for the replacement parts, the server was meticulously cleaned, internal connections were checked, and the cabinet was cleaned as well.
+
+At 4:40 PM, the replacement power supplies arrived and were promptly installed. The server's functionality was verified, and it was reinstalled into the cabinet.
+
+Corrective and Preventive Measures:
+
+An additional power source was installed for the server to ensure redundancy.
+An external backup of all server data was created as a precaution.
+A second internal storage disk was requested to implement a RAID configuration for data redundancy.
+A UPS (Uninterruptible Power Supply) was acquired to safeguard the server against power interruptions.
+A periodic maintenance schedule was established for both the server and other infrastructure systems.
+Plans were made to transition services to cloud-based platforms, with necessary authorization and budget allocation.
+By implementing these measures, InnovateCommerce aims to enhance the stability, security, and resilience of its systems and operations.
